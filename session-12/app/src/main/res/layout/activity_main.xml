@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/startService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service" />
+
+    <Button
+        android:id="@+id/stopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service" />
+
+    <Button
+        android:id="@+id/bindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Service" />
+
+    <Button
+        android:id="@+id/getCurrentTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Current Time" />
+
+    <Button
+        android:id="@+id/registerReciever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REgister Reciver" />
+
+    <Button
+        android:id="@+id/unregisterReciever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unregister Reciever" />
+
+    <TextView
+        android:id="@+id/currentTimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/current_time" />
+
+    <Button
+        android:id="@+id/startIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Intent service" />
+
+</LinearLayout>
